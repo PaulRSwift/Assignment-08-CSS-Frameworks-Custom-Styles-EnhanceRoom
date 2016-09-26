@@ -51,11 +51,6 @@ $themecolor: #7AC0CE;
    padding-left: 20px;
 }
 
-.navbar-img{
-   display: inline-block;
-   width: 10%;
-
-}
 
 .navbar-hamburger {
    display: inline-block;
@@ -209,4 +204,18 @@ $themecolor: #7AC0CE;
 
    .copywright {
       h2 {font-size: 12px;}
+   }
+
+@media screen and (min-width: 900px) {
+
+
+
+   .footer {
+      display: block;
+   }
+
+   .footer-text{
+      display: block;
+   }
+
    }

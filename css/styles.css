@@ -401,9 +401,6 @@ img {
     display: inline-block;
     position: fixed;
     padding-left: 20px; }
-  #app-container .navbar-img {
-    display: inline-block;
-    width: 10%; }
   #app-container .navbar-hamburger {
     display: inline-block;
     width: 10%; }
@@ -515,5 +512,12 @@ img {
 
 .copywright h2 {
   font-size: 12px; }
+
+@media screen and (min-width: 900px) {
+  .footer {
+    display: block; }
+
+  .footer-text {
+    display: block; } }
 
 /*# sourceMappingURL=styles.css.map */
