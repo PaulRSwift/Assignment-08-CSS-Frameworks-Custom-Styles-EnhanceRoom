@@ -1,0 +1,212 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+$themecolor: #7AC0CE;
+
+.column-container > .grid-item{
+   font-size: medium;
+   display: inline-block;
+   vertical-align: top;
+}
+
+#app-container{
+   max-width: 960px;
+   display: inline-block;
+
+.intro-nav {
+   margin-bottom: -50px;
+   // background-color: blue;
+   opacity: .8;
+   color: #FFF;
+      img {
+         opacity: 1.0;
+         width: 10%;
+         position: absolute;
+      }
+
+}
+
+.intro-hero{
+   padding-bottom: 0;
+   margin-bottom: 0;
+   margin-top: 0;
+   padding: 55px;
+}
+
+.header-background {
+   background: url(../images/images/roomies-eating-together-bg.jpg) center center no-repeat;
+   color: #FFF;
+}
+
+.mynavbar {
+   width:100%;
+   height: 25px;
+   display: inline-block;
+   position: fixed;
+   padding-left: 20px;
+}
+
+.navbar-img{
+   display: inline-block;
+   width: 10%;
+
+}
+
+.navbar-hamburger {
+   display: inline-block;
+   width: 10%;
+}
+
+.cartoon-city {
+   background: url(../images/images/buildings-yellow-green.svg) center right no-repeat;
+   z-index: 1;
+      h1{color: #FFF;}
+      p{color: #FFF;}
+}
+
+.city-overlay {
+   background-color: $themecolor;
+   z-index: 2;
+}
+
+.page-header {
+   h1, h4 {
+      color: $themecolor
+   }
+}
+
+
+.thumbnail-no-border{
+   border: none;
+}
+
+.roommate-selfie {
+   background: url(../images/images/happy-roomies-bg.jpg) center center no-repeat;
+}
+
+.roommate-selfie-text {
+   color: #FFFFFE;
+}
+
+.social-box {
+   display: inline-block;
+   width: 100%;
+   color: white;
+}
+
+.social-btn {
+   display: inline-block;
+   font-size: 20px;
+   background-color: $themecolor;
+   border: 1px solid $themecolor;
+   border-radius: 50%;
+   border-top: 100%;
+   padding: 15px;
+   margin-bottom: 5px;
+   }
+
+   .airplane-btn {
+      button {background-color: #35414E;
+      height: 33px;
+      color: #FFF;
+      }
+   }
+}
+
+.success-stories {
+      img {
+         width: 45%;
+      }
+      h1 {
+         color: $themecolor;
+      }
+}
+
+.featured-background {
+   background-color: #F7C760;
+}
+
+.featured-card {
+      margin: 20px 0;
+      max-width: 500px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+   }
+
+   .info-container {
+   }
+
+   .text-column {
+      width: 80%;
+      display: inline-block;
+   }
+
+   .icon-column {
+      width: 18%;
+      display: inline-block;
+   }
+
+   .icon-column{
+      border-radius: 50%;
+      }
+
+   .user-icon{
+      border-radius: 50%;
+   }
+
+   .love-btn {
+      position: absolute;
+      top: 10%;
+      left: 80%;
+      font-size: 20px;
+      color: #fff;
+   }
+
+   .see-more-btn {
+      background-color: #35414E;
+      color: #fff;
+      border-radius: 10%;
+      border: 1px solid #35414E;
+      margin-bottom: 10px;
+   }
+
+   .footer{
+      background-color: #35414E;
+      width: 100%;
+      display: inline-block;
+      color: #FFF;
+      img{ width: 30%;
+      margin-right:auto;
+      margin-left: auto;
+      padding: 10px;
+
+      }
+
+   }
+
+   .footer-text{
+      width:24%;
+      display: inline-block;
+      padding: 10px;
+      h2 { font-size: 12px;}
+   }
+
+   .social-btn-footer {
+      font-size: 12px;
+      border: 1px solid #FFF;
+      border-radius: 50%;
+      border-top: 100%;
+      padding: 15px;
+      margin-bottom: 5px;
+   }
+
+   .copywright {
+      h2 {font-size: 12px;}
+   }
